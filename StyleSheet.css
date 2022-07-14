@@ -1,0 +1,214 @@
+html, body {
+    margin: 0;
+	font-family: "Arial";
+	font-size: 15px;
+}
+body {
+	background-image: url("Images/Body.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+td{
+	padding: 5px;
+	/*border: solid green;*/
+	vertical-align: top;
+	
+}
+ul{
+	list-style-type: none;
+	font-size: 13px;
+	color: grey;
+}
+table {
+	/*border: solid red;*/
+}
+a h3{
+	text-decoration:underline;
+	color: white;
+}
+a h3:hover{
+	text-decoration:underline;
+	color: gray;
+	
+}
+h1, h2, h3{
+	color: white;
+	text-align: center;
+	margin: 0;
+	
+}
+p{
+	color: white;
+}
+h5{
+	text-align: center;
+	margin:0px;
+	color: gold;
+}
+iframe{
+    scroll: none;
+}
+#grn{
+		color: #5D5;
+}
+/*div{border: solid blue;}*/
+					/*Divs*/
+.para_Intro{
+	background-image: url("Images/Intro.jpg");
+	height: 600px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+.para_Gamer{
+	background-image: url("Images/Gamer.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+.quote p{
+	padding-top: 10%;
+}
+.reviews{
+	border-left: solid grey;
+	border-right: solid grey;
+	width: 85%;
+	background-color: #111;
+}
+#rev2{
+	border:none;
+	width: 100%;
+}
+
+					/*End Divs*/
+					/*Arrow down*/
+i {
+    border: solid white;
+    border-width: 0 8px 8px 0;
+    display: inline-block;
+    padding: 15px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+	transition: .5s ease;
+	
+}
+					/*End Arrow down*/
+					/*Texts*/
+.text{
+	background: rgba(255, 255, 255,0.1);
+	border-top: solid white;
+	border-bottom: solid white;
+	width: 100%;
+	margin: auto;
+	color: white;
+}
+.title_h1{
+	box-sizing: border-box;
+	background: #000;
+	width: 100%;
+	color: White;
+	text-align: center;
+	padding: 1px;
+	font-family: "Arial Black";
+	font-size: 25px;
+}
+					/*End Texts*/
+					/*Feature CSS*/
+.table{
+	width: 90%;
+}
+.image {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	z-index: -1;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.td:hover .f_Text {
+	opacity: 0.8;
+}	
+.td:hover {
+	transition: .5s ease;
+	background-color: grey;
+}
+.f_name{
+	background-color: #EEE;
+	color: white;
+	padding-left: 8px;
+	font-family: "Calibri";
+	text-align: left;
+}
+/*dropdown*/
+.td .f_name{
+    display: none;
+    position: absolute;
+    background: rgba(50,50,50,1);
+	height: auto;
+    width: 25%;
+    z-index: 1;
+}
+.f_name p {
+    color: white;
+    display: block;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.td:hover .f_name {
+    display: inline-block;
+}
+/*endDropdown*/
+
+					/*End Feature CSS*/
+					/*NewsFeed*/
+.iframe{
+	height: 1580px;
+	width: 100%;
+	border: none;
+}
+.tdNF{
+	vertical-align: text-top;
+	padding: 0px;
+	border-top: solid DimGray;
+}
+.tdNF h3{
+	margin:0;
+	padding: 0px;
+}
+.tdNF p{
+	padding: 1px;
+	font-size: 13px;
+	color: white;
+}
+.nf_Image{
+	width: 100%;
+	height: auto;
+}
+.nf_ImageHover:hover{
+	transition: .5s ease;
+	background-color: grey;
+}
+.nf_GameList td{
+	Color: grey;
+	text-decoration: Underline;
+	background-color: #111;
+	border-left: solid gray;
+	border-right: solid grey;
+	border-top: solid grey;
+}
+.nf_GameList td li a{
+	color: gray;
+}
+.nf_GameList td li a:hover{
+	Color: white;
+}
+.nf_GameList li a:visited{
+	Color: grey;
+}
